@@ -1,0 +1,24 @@
+{
+  "name": "ciri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.11.1",
+    "hardhat-deploy": "^0.11.14",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
